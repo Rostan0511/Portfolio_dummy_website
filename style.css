@@ -1,0 +1,273 @@
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFF8F0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;    
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: #190D37;
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #000000;
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.bigtext {
+    color:  #331E6A;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+    border-radius: 0 0 0 80px;
+}
+
+.smalltext {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color:#000000;
+}
+
+#hi-and-name{
+    margin-top: 52px;
+    margin-bottom: 10px;
+}
+
+#contact-button {
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    height: 44px;
+    width: 138px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+}
+
+#exp-info {
+    display: flex;
+    max-width: 1440px;
+}
+
+.exp-title {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+ 
+    color: #2858FF;
+    text-align: center;
+    margin-top: 32px;
+
+
+}
+.exp-subtitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.bigtext-2 {
+        color:  #331E6A;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        margin-bottom: 16px;
+        
+}
+
+#exp-info {
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+.exp-data {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 16px;
+}
+
+.exp-data-head {
+    text-align: center;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+
+
+}
+
+#exp-section {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 50px;
+}
+
+.exp-para {
+    text-align: center;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#pro-space {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.project-section {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.pro-left-blue {
+    width:120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #19ACFF;
+    height: 120px;
+    margin-top: 26px;
+    margin-right: 16px;
+    border-radius: 12px;
+
+}
+
+.pro-left-yellow {
+    width:120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:  #FFE819;
+    height: 120px;
+    margin-top: 26px;
+    margin-right: 16px;
+    border-radius: 12px;
+
+}
+
+.pro-left-red {
+    width:120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:  #FF1919;
+
+    height: 120px;
+    margin-top: 26px;
+    margin-right: 16px;
+    border-radius: 12px;
+
+}
+
+.pro-right {
+    width: 70%;
+    margin-top: 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color:#291854;
+    margin-bottom: 16px;
+    
+
+}
+
+#pn {
+    padding-top: 26px;
+    font-family: "Poppins", sans-serif;
+}
+
+.exp-para {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0;
+
+}
+
+#footer {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 16px;
+
+}
+
+#copyright {
+    padding-top: 16px;
+}
