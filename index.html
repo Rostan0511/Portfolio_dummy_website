@@ -1,49 +1,79 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <!-- Page Title -->
         <title>Rostan Lobo</title>
+
+        <!-- Preconnect to Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Google Fonts -->
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet">
+
+        <!-- Link to External CSS File -->
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <!-- hero -->
+        <!-- Hero Section -->
         <div id="hero-section">
-            <!-- lefthalf -->
+
+            <!-- Left Half of Hero Section -->
             <div id="hero-text">
 
-                <div class="smalltext">(+90) 551 052 43 56
+                <!-- Contact Information -->
+                <div class="smalltext">
+                    <span>
+                        <img src="phone.svg" alt="Phone-Icon" width="12px" height="12px" style="margin-bottom: -2px;">
+                        (+90) 551 052 43 56
+                    </span>
                     <div style="float: right;">
-                        rostanlobo@mail.com
+                        <span>
+                        <img src="email.svg" alt="Mail-Icon" width="12px" height="12px" style="margin-bottom: -2px;">
+                        rostanlobo@gmail.com
+                        </span>
                     </div>
                 </div>
+
+                <!-- Introduction Text -->
                 <div id="hi-and-name">Hi, I'm Rostan Lobo</div>
-                <h1>Freelance Front-end Developer and Wordpress Developer</h1>
+                <h1>Freelance Front-end Developer and WordPress Developer</h1>
+
+                <!-- Brief Description -->
                 <div class="bigtext">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.
-                    Vivamus turpis ligula, pellentesque a elit in, convallis
-                    laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc
-                    nisi, ac aliquet est pretium non. </div>
+                    adipiscing elit. Vivamus turpis ligula, pellentesque a elit
+                    in, convallis laoreet metus. Sed aliquet lacinia dictum. In
+                    pharetra nunc nisi, ac aliquet est pretium non.</div>
+
+                <!-- Contact Button -->
                 <div><button id="contact-button">Contact Me</button></div>
             </div>
 
-            <!-- righthalf -->
+            <!-- Right Half of Hero Section with Image -->
             <div id="hero-image-wrapper">
                 <img src="hero.png" alt="Hero-Image" id="hero-image">
             </div>
         </div>
+
+        <!-- Experience Section -->
         <div id="exp-section">
+            <!-- Section Title -->
             <div class="exp-title">What I Do</div>
+            <!-- Section Subtitle -->
             <h2 class="exp-subtitle">With 10+ years of developer and designer
                 experience</h2>
+            <!-- Brief Description -->
             <div class="bigtext-2">Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit. Vivamus turpis ligula, pellentesque a elit in,
                 convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra
                 nunc nisi, ac aliquet est pretium non.</div>
+
+            <!-- Experience Information -->
             <div id="exp-info">
+                <!-- Front-End Development -->
                 <div class="exp-data">
                     <h3 class="exp-data-head">Front-End Development</h3>
                     <div class="exp-para">Lorem ipsum dolor sit amet,
@@ -54,8 +84,9 @@
                         egestas sagittis, lorem nisi aliquam metus, vitae porta
                         ligula enim in nisl.</div>
                 </div>
+                <!-- Backend Development -->
                 <div class="exp-data">
-                    <h3 class="exp-data-head">Backend-End Development</h3>
+                    <h3 class="exp-data-head">Backend Development</h3>
                     <div class="exp-para">Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit. Vivamus turpis ligula,
                         pellentesque a elit in, convallis laoreet metus. Sed
@@ -64,6 +95,7 @@
                         egestas sagittis, lorem nisi aliquam metus, vitae porta
                         ligula enim in nisl.</div>
                 </div>
+                <!-- Interface Development -->
                 <div class="exp-data">
                     <h3 class="exp-data-head">Interface Development</h3>
                     <div class="exp-para">Lorem ipsum dolor sit amet,
@@ -75,79 +107,155 @@
                         ligula enim in nisl.</div>
                 </div>
             </div>
-
         </div>
 
-        <!-- projects -->
+        <!-- Projects Section -->
         <div id="pro-space">
+            <!-- Section Title -->
             <div class="exp-title">My Projects</div>
+            <!-- Section Subtitle -->
             <h2 class="exp-subtitle">You can check out a few of my projects
                 below.</h2>
-            <div class="bigtext-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                turpis ligula, pellentesque a elit in, convallis laoreet metus.
-                Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet
-                est pretium non.
-            </div>
+            <!-- Brief Description -->
+            <div class="bigtext-2">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Vivamus turpis ligula, pellentesque a elit in,
+                convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra
+                nunc nisi, ac aliquet est pretium non.</div>
         </div>
+
+        <!-- Individual Project Sections -->
         <div>
-            <!-- blue -->
+            <!-- Project 1 (Blue) -->
             <div class="project-section">
                 <div class="pro-left-blue">
                     <div id="pn">PN</div>
                 </div>
                 <div class="pro-right">
                     <h4>Project Name</h4>
-                    <div class="exp-para">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Vivamus turpis ligula, pellentesque a elit in,
-                        convallis laoreet metus. Sed aliquet lacinia dictum. In
-                        pharetra nunc nisi, ac aliquet est pretium non. Fusce
-                        fringilla, sem sit amet egestas sagittis, lorem nisi
-                        aliquam metus, vitae porta ligula enim in nisl. Quisque
-                        at erat semper, scelerisque tortor id, pretium tellus.
-                    </div>
+                    <div class="exp-pro">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Vivamus turpis ligula,
+                        pellentesque a elit in, convallis laoreet metus. Sed
+                        aliquet lacinia dictum. In pharetra nunc nisi, ac
+                        aliquet est pretium non. Fusce fringilla, sem sit amet
+                        egestas sagittis, lorem nisi aliquam metus, vitae porta
+                        ligula enim in nisl. Quisque at erat semper, scelerisque
+                        tortor id, pretium tellus.</div>
                 </div>
             </div>
-            <!-- yellow -->
+
+            <!-- Project 2 (Yellow) -->
             <div class="project-section">
                 <div class="pro-left-yellow">
                     <div id="pn">PN</div>
                 </div>
                 <div class="pro-right">
                     <h4>Project Name</h4>
-                    <div class="exp-para">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Vivamus turpis ligula, pellentesque a elit in,
-                        convallis laoreet metus. Sed aliquet lacinia dictum. In
-                        pharetra nunc nisi, ac aliquet est pretium non. Fusce
-                        fringilla, sem sit amet egestas sagittis, lorem nisi
-                        aliquam metus, vitae porta ligula enim in nisl. Quisque
-                        at erat semper, scelerisque tortor id, pretium tellus.
-                    </div>
+                    <div class="exp-pro">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Vivamus turpis ligula,
+                        pellentesque a elit in, convallis laoreet metus. Sed
+                        aliquet lacinia dictum. In pharetra nunc nisi, ac
+                        aliquet est pretium non. Fusce fringilla, sem sit amet
+                        egestas sagittis, lorem nisi aliquam metus, vitae porta
+                        ligula enim in nisl. Quisque at erat semper, scelerisque
+                        tortor id, pretium tellus.</div>
                 </div>
             </div>
-            <!-- Red -->
+
+            <!-- Project 3 (Red) -->
             <div class="project-section">
                 <div class="pro-left-red">
                     <div id="pn">PN</div>
                 </div>
-                <div class="pro-right">
+                <div class="pro-right pr3">
                     <h4>Project Name</h4>
-                    <div class="exp-para">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Vivamus turpis ligula, pellentesque a elit in,
-                        convallis laoreet metus. Sed aliquet lacinia dictum. In
-                        pharetra nunc nisi, ac aliquet est pretium non. Fusce
-                        fringilla, sem sit amet egestas sagittis, lorem nisi
-                        aliquam metus, vitae porta ligula enim in nisl. Quisque
-                        at erat semper, scelerisque tortor id, pretium tellus.
-                    </div>
+                    <div class="exp-pro">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Vivamus turpis ligula,
+                        pellentesque a elit in, convallis laoreet metus. Sed
+                        aliquet lacinia dictum. In pharetra nunc nisi, ac
+                        aliquet est pretium non. Fusce fringilla, sem sit amet
+                        egestas sagittis, lorem nisi aliquam metus, vitae porta
+                        ligula enim in nisl. Quisque at erat semper, scelerisque
+                        tortor id, pretium tellus.</div>
                 </div>
             </div>
         </div>
 
+        <!-- Pricing Section -->
+        <div>
+            <!-- Section Title -->
+            <div class="exp-title">Pricing</div>
+            <!-- Section Subtitle -->
+            <h2 class="exp-subtitle">You can take a look at the pricing table
+                based on the work I do.</h2>
+            <!-- Brief Description -->
+            <div class="bigtext-2 bt3">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Solutaullam cum nisi ea minima quod cumque
+                provident rem nesciunt repellat! Fringilla, sem sit amet egestas
+                sagittis, lorem nisi aliquam metus, vitae porta ligula enim in
+                nisl. Quisque at erat semper, scelerisque tortor id, pretium
+                tellus.</div>
 
-        <div id="footer">
-            <div id="copyright"> Rostan Lobo © 2022, All Rights Reserved.</div>
+            <!-- Pricing Cards -->
+            <div class="pricing-boxes">
+                <!-- Pricing Card 1 -->
+                <div class="pricing-card">
+                    <div class="service">PHD to HTML</div>
+                    <div class="price">$99 <span class="per-page">/ Per
+                            Page</span></div>
+                    <div class="service-desc">Lorem ipsum dolor sit amet
+                        consectetur adipiscing elit.</div>
+                    <ul class="service-benefits">
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                    </ul>
+                    <button class="service-contact-btn">Contact Me</button>
+                </div>
+
+                <!-- Pricing Card 2 -->
+                <div class="pricing-card">
+                    <div class="service">SKECTH to HTML</div>
+                    <div class="price">$99 <span class="per-page">/ Per
+                            Page</span></div>
+                    <div class="service-desc">Lorem ipsum dolor sit amet
+                        consectetur elit. Enim, doloremque</div>
+                    <ul class="service-benefits">
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                    </ul>
+                    <button class="service-contact-btn">Contact Me</button>
+                </div>
+
+                <!-- Pricing Card 3 -->
+                <div class="pricing-card">
+                    <div class="service">FIGMA to HTML</div>
+                    <div class="price">$99 <span class="per-page">/ Per
+                            Page</span></div>
+                    <div class="service-desc">Lorem ipsum dolor sit amet
+                        consectetur elit. Enim, doloremque</div>
+                    <ul class="service-benefits">
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                        <li><span style="color: #22C55E">✔</span> lorem ipsum dolor sit amet</li>
+                    </ul>
+                    <button class="service-contact-btn">Contact Me</button>
+                </div>
+            </div>
         </div>
 
+        <!-- Footer Section -->
+        <div style="height: 600px;"></div>
+        <div id="footer">
+            <div id="copyright"> Rostan Lobo © 2022, All Rights
+                Reserved.
+            </div>
+        </div>
     </body>
 </html>
