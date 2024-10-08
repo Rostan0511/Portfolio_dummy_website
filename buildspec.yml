@@ -1,1 +1,21 @@
+version: 0.2
 
+phases:
+  install:
+    commands:
+      - echo "No installation required for HTML/CSS"
+  
+  build:
+    commands:
+      - echo "No build steps for HTML/CSS project"
+
+  post_build:
+    commands:
+      - echo "Uploading files to S3..."
+      - aws s3 cp . s3://your-s3-bucket-name --recursive
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: ./
+  discard-paths: no
