@@ -12,7 +12,6 @@ phases:
   post_build:
     commands:
       - echo "Uploading files to S3..."
-      - aws s3 cp . s3://rostan-tws-destination --recursive
 
 artifacts:
   files:
